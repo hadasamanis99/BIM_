@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+
+
+
+
+/*NAVBAR*/
+
+
+#png{
+  width: 10%;
+  margin-left: 15px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2.2em 2em;
+  font-family:'Oswald', sans-serif
+}
+nav ul li {
+  display: inline;
+  padding: 0 .4em;
+}
+nav ul li a {
+  color: #433;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .10s color;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #333;
+  color: #B3AEAB;
+}
+#current {
+  color: #97948E;
+  border-bottom: 3px solid #333;
+
+}
+
+
+/*/*CONTACT FORM*/
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  
+}
+
+
+form {
+  width: 58.3333333333%;
+  margin: 0 auto;
+}
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #313A3D;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+form .field label + span {
+  font-family: 'Source Sans Pro', sans-serif;
+  opacity: 0;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 7%;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 0 #cd6302;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+
+}
+form .field input[type="text"],
+form .field textarea {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+  
+  height: 18px;
+  resize: none;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"]:focus, form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+  outline: none;
+}
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #313A3D;
+  color: #ADB5BD;
+}
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: black;
+}
+form .field:hover label {
+  width: 18%;
+  background: #313A3D;
+  color: #ADB5BD;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+form input[type="submit"] {
+  background: #313A3D;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form input[type="submit"]:hover {
+  background: #313A3D;
+  color: #ADB5BD;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #cd6302;
+}
+
+.contact{
+	font-size: 25px;
+}
+
+/*api googlemap*/
+.contact-info {
+	position: absolute;
+	bottom: 0;
+	right: 8px;
+	background: #fff;
+	padding: 16px;
+	width: 500px;
+	margin: 16px auto;
+	font-size: 22px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	border: 1px solid #ddd;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+/* Footer*/
+
+footer{
+  font-size: 15px;
+  text-align:center;
+}
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  .footer {padding: 40px; width:620px;}
+}
+
